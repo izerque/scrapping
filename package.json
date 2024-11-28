@@ -5,12 +5,14 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-     "start": "node src/scrapejiji.js"
+    "start": "node src/scrapejiji.js"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@supabase/supabase-js": "^2.46.1",
+    "dotenv": "^16.4.5",
     "puppeteer": "^23.6.0"
   }
 }
